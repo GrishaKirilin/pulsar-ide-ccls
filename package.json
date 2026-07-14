@@ -1,8 +1,8 @@
 {
-  "name": "ide-ccls",
+  "name": "pulsar-ide-ccls",
   "main": "./lib/main",
   "version": "0.3.0",
-  "description": "Provides ccls language server integration into the Atom languageclient.",
+  "description": "Provides ccls language-server integration for Pulsar.",
   "keywords": [
     "ccls",
     "ide",
@@ -10,14 +10,14 @@
     "cpp",
     "C"
   ],
-  "repository": "https://github.com/isundaylee/atom-ide-ccls",
+  "repository": "https://github.com/GrishaKirilin/pulsar-ide-ccls",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "pulsar": "*"
   },
   "dependencies": {
-    "atom-languageclient": "^0.9.7",
-    "vscode-languageserver-types": "3.11.0"
+    "@savetheclocktower/atom-languageclient": "^1.17.20",
+    "vscode-languageserver-types": "^3.18.0"
   },
   "enhancedScopes": [
     "source.c",
